@@ -1,0 +1,32 @@
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px; /* Add some margin between images */
+  }
+  
+  .photo-gallery img {
+    width: calc(33.33% - 20px); /* Set a specific width for each image, minus spacing */
+    max-width: 100%; /* Ensure images fill their container */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Add spacing between images */
+    box-sizing: border-box;
+    opacity: 0; /* Initially, set opacity to 0 */
+    transition: opacity 1s ease, transform 1s ease; /* Add a transition for opacity */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .photo-gallery {
+      flex-direction: column; /* Stack images vertically on smaller screens */
+      align-items: center; /* Center images horizontally */
+    }
+  }
+  
+  .photo-gallery.visible img {
+    opacity: 1;
+  }
+  .photo-gallery.visible img:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+  

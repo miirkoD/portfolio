@@ -1,0 +1,48 @@
+/* Header1.css */
+
+/* ... Your existing styles ... */
+
+.menu-toggle {
+  cursor: pointer;
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.nav-menu.open {
+  display: block; /* Display the drop-down menu when it's open */
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.nav-menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Media query for responsive menu toggle button */
+@media (max-width: 768px) {
+  .nav-menu {
+    position: relative;
+  }
+
+  .menu-toggle {
+    display: block; /* Show the "Menu" button on smaller screens */
+  }
+
+  .nav-menu.open {
+    width: 100px; /* Adjust the width as desired */
+  }
+}
