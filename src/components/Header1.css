@@ -1,6 +1,18 @@
 /* Header1.css */
 
-/* ... Your existing styles ... */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
 .menu-toggle {
   cursor: pointer;
@@ -12,10 +24,14 @@
 
 .nav-menu {
   display: none;
+  width: 50px; /* Set an initial smaller width for the closed menu */
+  transition: width 0.3s ease; /* Add a transition for width */
 }
 
 .nav-menu.open {
-  display: block; /* Display the drop-down menu when it's open */
+  display: flex;
+  flex-direction: column;
+  width: 150px; /* Set a wider width for the open menu */
   position: absolute;
   top: 50px;
   right: 0;
@@ -25,7 +41,6 @@
 }
 
 .nav-menu a {
-  display: block;
   padding: 10px;
   text-decoration: none;
   color: #333;
@@ -40,9 +55,5 @@
 
   .menu-toggle {
     display: block; /* Show the "Menu" button on smaller screens */
-  }
-
-  .nav-menu.open {
-    width: 100px; /* Adjust the width as desired */
   }
 }
