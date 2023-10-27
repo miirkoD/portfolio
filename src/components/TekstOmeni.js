@@ -1,5 +1,5 @@
 import React from 'react';
-import './Tekst.css';
+import './TekstOmeni.css';
 
 const Tekst = () => {
     return (

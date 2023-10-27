@@ -54,6 +54,6 @@ header {
   }
 
   .menu-toggle {
-    display: block; /* Show the "Menu" button on smaller screens */
+    display: block; 
   }
 }
