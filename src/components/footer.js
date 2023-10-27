@@ -1,7 +1,8 @@
 import React from 'react';
-import './footer.css'; // Import the CSS file
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'; // Import the LinkedIn icon from Font Awesome
+import './footer.css';
+import SocialIcons from './SocialIcons'; // Import the SocialIcons component
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import FontAwesomeIcon
+import { faGithub } from '@fortawesome/free-brands-svg-icons'; // Import the GitHub icon
 
 const Footer = () => {
   return (
@@ -15,10 +16,10 @@ const Footer = () => {
         </div>
         <div className="footer-links">
           <a href="https://www.yourportfoliowebsite.com">Portfolio</a>
-          <a href="https://www.linkedin.com/yourprofile">
-            <FontAwesomeIcon icon={faLinkedin} /> {/* LinkedIn icon */}
+          <SocialIcons /> 
+          <a href="https://github.com/yourusername">
+            <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="https://www.github.com/yourusername">GitHub</a>
         </div>
       </div>
       <div className="footer-copyright">
