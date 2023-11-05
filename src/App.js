@@ -9,7 +9,6 @@ import Footer from './components/footer'
 function App() {
   return (
     <div className="App">
-      <Header1 />
       <h1>Welcome to my portfolio</h1>
       <Tekst />
       <PhotoGallery />

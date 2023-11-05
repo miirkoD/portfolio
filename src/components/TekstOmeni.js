@@ -4,8 +4,12 @@ import './TekstOmeni.css';
 const Tekst = () => {
     return (
         <div className="tekst-container">
-            <h2>What is Lorem Ipsum?</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <h2>Kratko o meni</h2>
+            <h3>
+                Ja sam Mirko, dobrodošao na moj sajt. Ovo je moj početak u svetu freelancer-a.
+                Do sada sam se bavio grafickim  <a href="/work">dizajnom</a>, a sada zelim vise da se posvetim programiranju.
+                Zavrsio sam Racunarsku gimaziju u Novom Sadu, tamo sam uradio dosta <a href="projects">projekata</a>, tako sam se i zainteresovao za programiranje.
+            </h3>
         </div>
     );
 };

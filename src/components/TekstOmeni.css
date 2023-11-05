@@ -3,6 +3,7 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 20px;
+  font-family: 'Arial', sans-serif; /* Use a modern font-family of your choice */
 }
 
 .footer-content {
@@ -17,12 +18,12 @@ footer {
 
 .footer-contact h4 {
   margin: 0;
-  font-size: 24px;
+  font-size: 28px; /* Increase the font size for the h4 element */
 }
 
 .footer-contact p {
   margin: 0;
-  font-size: 14px;
+  font-size: 18px; /* Increase the font size for the paragraph */
 }
 
 .footer-links {
@@ -33,11 +34,13 @@ footer {
   color: #fff;
   text-decoration: none;
   margin-right: 10px;
+  font-size: 18px; /* Increase the font size for the links */
+  transition: color 0.3s;
 }
 
 .footer-copyright {
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* Media query for smaller screens (e.g., mobile) */

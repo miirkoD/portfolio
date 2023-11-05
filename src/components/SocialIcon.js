@@ -4,8 +4,8 @@ import { faLinkedin,faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const SocialIcons = () => {
   return (
-    <div className="social-icons">
-      <a href="https://www.linkedin.com/yourprofile">
+    <div className="social-icons-container">
+      <a href="https://www.linkedin.com">
         <FontAwesomeIcon icon={faLinkedin} />
       </a>
       <a href="https://github.com/miirkoD"> 
