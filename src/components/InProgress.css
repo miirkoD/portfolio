@@ -1,0 +1,40 @@
+.in-progress-container {/* edit of container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.in-progress-content {/*edit of content  */
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {/*  animation*/
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h2 {/* h2 edit(titel) */
+  font-size: 24px;
+  color: #333;
+}
+
+p {/*text styling */
+  font-size: 16px;
+  color: #555;
+}
+
+ .instagram-icon {/*instagram icon edit  */
+  font-size: 2em; 
+  color: #e4405f; 
+}
