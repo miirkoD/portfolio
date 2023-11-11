@@ -16,15 +16,15 @@
   .row-one.visible {
     opacity: 1;
     transform: translateY(0);
-    transition: opacity 0.5s ease, transform 0.5s ease; /* Add smooth transitions */
+    transition: opacity 0.5s ease, transform 0.5s ease; 
   }
-  
+ 
   .row-one {
     opacity: 0;
-    transform: translateY(20px); /* Adjust initial position as needed */
-    transition: opacity 0.5s ease, transform 0.5s ease; /* Add smooth transitions */
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease; 
   }
-  
+
   .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -32,13 +32,17 @@
   }
   
   .gallery-item {
-    width: 30%; /* Adjust the width as needed */
+    width: 30%; 
     margin-bottom: 20px;
   }
   
   .gallery-item img {
     width: 100%;
     height: auto;
-    border-radius: 8px; /* Optional: Add border radius for a rounded look */
+    border-radius: 8px; 
+    transition: opacity 0.3s ease;
+  }
+  .gallery-item:not(:last-child):hover img {
+    opacity: 0.6;
   }
   
