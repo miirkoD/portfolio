@@ -11,9 +11,9 @@ function App() {
   return (
      /* <InProgress/> */
     <div className="App">
-      <h1>Welcome to my portfolio</h1>
+  
       <Tekst />
-      <PhotoGallery />
+      
       <ThingsIKnow/>
       <Footer/> 
     </div>

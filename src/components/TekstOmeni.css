@@ -1,60 +1,34 @@
-/* Default styles for larger screens */
-footer {
-  background-color: #333;
-  color: #fff;
+.tekst-container {
+  width: 100%;
+  height: 70vh; 
   padding: 20px;
-  font-family: 'Arial', sans-serif; /* Use a modern font-family of your choice */
+  text-align: justify;
+  background-color: #61BAAD; 
+  border-end-end-radius: 50%;
+  box-sizing: border-box; 
+}
+.tekst-container h1{
+  color: #C5408F;
+  font-size: 53px;
 }
 
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+.tekst-container h2 {
+  color: #C5408F;
+  font-size: 44px; 
 }
 
-.footer-contact {
-  flex: 1;
+h3 {
+  color: #C5408F;
+  font-size: 32px; 
+  margin-top: 130px;
 }
 
-.footer-contact h4 {
-  margin: 0;
-  font-size: 28px; /* Increase the font size for the h4 element */
-}
-
-.footer-contact p {
-  margin: 0;
-  font-size: 18px; /* Increase the font size for the paragraph */
-}
-
-.footer-links {
-  display: flex;
-}
-
-.footer-links a {
-  color: #fff;
+a {
+  color: #007bff;
   text-decoration: none;
-  margin-right: 10px;
-  font-size: 18px; /* Increase the font size for the links */
-  transition: color 0.3s;
+  font-weight: bold;
 }
 
-.footer-copyright {
-  text-align: center;
-  font-size: 14px;
-}
-
-/* Media query for smaller screens (e.g., mobile) */
-@media (max-width: 768px) {
-  footer {
-    padding: 10px;
-    text-align: center;
-  }
-
-  .footer-content {
-    flex-direction: column;
-  }
-
-  .footer-links {
-    margin-top: 20px;
-  }
+a:hover {
+  text-decoration: underline;
 }
